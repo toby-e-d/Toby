@@ -1,0 +1,86 @@
+/* classes start wtih a full stop . 
+ids start with a ~
+*/
+
+* {
+   /* capturing everything that isnt styled.
+   Wildcard...
+   in cass, every line needs to be colosed with a semi colon */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a {
+    /* inside of the navbar class... we are targeting
+     specific elements
+     li a of the navbar
+      */
+     text-decoration: none;
+     padding: 15px 10px;
+     /* padding is space around text */
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-me {
+    width: 33.3%;
+    /* split screen into thirds */
+    text-align: left;
+}
+
+.about-me p {
+    margin-bottom: 30px;
+    /* space at bottom of paragraph */
+    font-size: 20px;
+    color: black;
+}
+
+.image-container {
+    width: 33.3%;
+}
+
+.image-container img {
+    width: 300px;
+    height: 350px;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
